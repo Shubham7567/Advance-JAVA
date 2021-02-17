@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+	<head>This is heading</head>
+	<body>
+		<strong>My first HTML document in XML format.</strong>
+		<div> h1 </div>
+	</body>
+</html>

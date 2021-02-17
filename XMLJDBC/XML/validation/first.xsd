@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="html" type="htmlType" />
+ 
+	<xs:complexType name="htmlType">
+		<xs:sequence>
+			<xs:element name="head" type="xs:string" />
+			<xs:element name="body" type="myBody" />
+		</xs:sequence>
+	</xs:complexType>
+ 
+	<xs:complexType name="myBody">
+	 	<xs:sequence>
+	 		<xs:element name="strong" type="xs:string" />
+	 	</xs:sequence>
+	</xs:complexType>
+</xs:schema>

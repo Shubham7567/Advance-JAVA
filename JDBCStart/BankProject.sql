@@ -1,0 +1,3 @@
+Create Table Banking.Bank(Bank_ID int auto_increment primary key,BankName varchar(50));
+Create Table Banking.Account(AccountNo int auto_increment primary key,Bank_ID int References Bank(Bank_ID), HolderName varchar(50),CurrentBalance(10,2) decimal, AccountType varchar(50));
+Create Table Banking.Passbook(int TransactionID auto_increment primary key, decimal Amount(10,2),decimal LastAmount(10,2), decimal CurrentBalance(10,2),date TransectionDate);

@@ -19,7 +19,7 @@ public class ExecSQL
             {
                 while(true)
                 {
-                    if(args.length == 0)
+                     if(args.length == 0)
                     {
                         System.out.println("Enter command or EXIT to exit");
                     }
@@ -39,7 +39,7 @@ public class ExecSQL
                             System.out.println("Testing");
                             stat.executeUpdate(line);
                             int updateCount = stat.getUpdateCount();
-                            System.out.println(updateCount + " rows updated");
+                            System.out.println(updateCount + " row(s) updated");
                         }
                         if(rs != null)
                         {
